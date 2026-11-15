@@ -49,7 +49,7 @@ test("direct links open the workspace without blocking", async ({ page }) => {
   await expect(title(page, "Exercise & Cognitive Assessments")).toBeVisible();
   await expect(page.getByRole("heading", { name: "Cognitive assessments", exact: true })).toBeVisible();
   await page.goto("./#/crew");
-  await expect(title(page, "Crew Health & Operations")).toBeVisible();
+  await expect(title(page, "Astronaut Health & Operations")).toBeVisible();
 });
 
 test("findings, health card calculation, evidence and scenarios", async ({ page }) => {
@@ -176,7 +176,7 @@ test("daily briefing: findings, changes, crew, tasks", async ({ page }) => {
   await d.getByRole("button", { name: "Next", exact: true }).click();
   await expect(d).toContainText("Repeat the reaction-time assessment");
   await d.getByRole("button", { name: "Start first task" }).click();
-  await expect(title(page, "Crew Health & Operations")).toBeVisible();
+  await expect(title(page, "Astronaut Health & Operations")).toBeVisible();
 });
 
 test("physical training: video, checklist and session are tracked separately", async ({ page }) => {

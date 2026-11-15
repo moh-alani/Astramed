@@ -47,7 +47,7 @@ The optional voice setting reads the same deterministic finding. Reset and JSON 
 ## Implemented features
 
 - Entry flow: welcome → demo access → mission briefing (skippable per profile) → My Health.
-- Three responsive sections: Personal Health Overview, Crew Health & Operations, and Exercise & Cognitive Assessments.
+- Three responsive sections: Personal Health Overview, Astronaut Health & Operations, and Exercise & Cognitive Assessments.
 - Crew operations dashboard: attention queue, player cards for each crew member (they scale to any crew size and put anyone needing attention first), crew-member detail with shared 14-day wellness trends (only for profiles that share), attention timeline recalculated per day, notification table with acknowledge/dismiss/review, check-in requests and an activity log.
 - Cognitive battery of five tasks modelled on NASA’s WinSCAT (Code Substitution, Running Memory CPT, Mathematical Processing, Delayed Matching to Sample, Code Substitution Delayed) plus simple reaction time, each with practice, keyboard input, accuracy, median response time, throughput and a personal baseline built from the first three sessions.
 - Exercise page with one tab per exercise (treadmill, cycle, squat, deadlift, heel raise, bench press, flywheel, mobility, rest): live simulated metrics, a looping clip from Canadian Space Agency and NASA footage (stored for offline use), a session bar sized from ISS practice (about 30 min aerobic, 30 to 60 min resistance), the muscles worked, best record and a daily streak.
