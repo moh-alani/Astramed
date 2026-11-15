@@ -91,9 +91,9 @@ The browser console capture in the primary scenario/evidence flow reported no un
 
 ## Publication status
 
-Published after explicit user approval to [AliShahroor/astramed-prototype](https://github.com/AliShahroor/astramed-prototype). The application is live at [ASTRAMED on GitHub Pages](https://alishahroor.github.io/astramed-prototype/) without authentication. The separate existing astramed repository/site, local template copy, reference documents and Template2 were preserved.
+Published after explicit user approval to [moh-alani/Astramed](https://github.com/moh-alani/Astramed). The application is live at [ASTRAMED on GitHub Pages](https://moh-alani.github.io/Astramed/) without authentication. The separate existing astramed repository/site, local template copy, reference documents and Template2 were preserved.
 
-[Release workflow 43611521046](https://github.com/AliShahroor/astramed-prototype/actions/runs/43611521046) completed successfully. Its deployed application commit is `de4ade0`. The full eight-test acceptance suite passed against that public deployment in fresh browser contexts, including offline navigation, local evidence, timing practice and manual-reading persistence after an offline reload. Subsequent publication-documentation and screenshot updates do not change the deployed application code.
+Release workflow 43611521046 completed successfully. Its deployed application commit is `de4ade0`. The full eight-test acceptance suite passed against that public deployment in fresh browser contexts, including offline navigation, local evidence, timing practice and manual-reading persistence after an offline reload. Subsequent publication-documentation and screenshot updates do not change the deployed application code.
 
 No reference PDFs/DOCX, Template2, local template copy, dependencies, exports or private credentials were published. The release contains the 42 approved source, configuration, test, documentation and screenshot files. No official submission video, final slide deck or competition portal submission has been produced.
 

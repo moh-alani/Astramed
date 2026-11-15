@@ -1,6 +1,6 @@
 # Static release instructions
 
-The local application is complete independently of hosting. The approved source is published at https://github.com/AliShahroor/astramed-prototype and deployed at https://alishahroor.github.io/astramed-prototype/. The GitHub Pages workflow runs lint, unit tests and production build before deployment. See the validation record for observed browser results. No account credentials or private medical data are included in the source.
+The local application is complete independently of hosting. The approved source is published at https://github.com/moh-alani/Astramed and deployed at https://moh-alani.github.io/Astramed/. The GitHub Pages workflow runs lint, unit tests and production build before deployment. See the validation record for observed browser results. No account credentials or private medical data are included in the source.
 
 ## GitHub preparation
 
