@@ -1,0 +1,13 @@
+# AI-assisted development disclosure
+
+ASTRAMED was developed for Team Code Blue using OpenAI Codex assistance for architecture, implementation, CSS design, deterministic synthetic data, test code, documentation and scientific-source review. Human team members must review and accept the resulting work before submission.
+
+No model was trained or fine-tuned on NASA materials. The product does not use an online language model for analysis. Findings are deterministic calculations and templates linked to short, locally stored NASA evidence summaries. NASA source titles, links, standard revisions and application limitations are recorded in the evidence mapping.
+
+All seeded crew names, mission histories and measurements are fictional. The visible “Simulated mission” label, reading-source labels, prototype notice and About disclosure distinguish these materials from NASA experimental data or live astronaut health telemetry. Visitor assessment results measure actual browser interactions; they are neither NASA observations nor medical assessments.
+
+No generated image, video, speech recording, NASA logo, NASA mark, stock astronaut photo or third-party character asset was created or used. Lucide provides UI icons under its package license; Recharts, React, Vite and other dependencies retain their respective licenses in the dependency packages. A system sans-serif font is used. The optional browser voice synthesizes already-displayed text only.
+
+The exercise page (tabs, live demo metrics, session bar, muscle figure, best records) was built with Anthropic Claude assistance and checked with the same unit and browser tests. Its looping clips are short, unmodified cuts (resized only) from official agency footage: Canadian Space Agency “Physical activity in space” (treadmill, cycle), NASA “Train Like an Astronaut – ARED” (squat), NASA Johnson Space Center “ARED physical training” with astronaut Mike Hopkins, images.nasa.gov jsc2018m000791 (deadlift, bent-over row, heel raise, bench press) and NASA Johnson Space Center “Orion Flywheel Exercise Device Reel”, images.nasa.gov jsc2025m000683 (flywheel), and NASA Johnson Space Center “10 Days in Orion”, images.nasa.gov jsc2026m000044 (rest: crew sleeping bags in the Orion cabin). All are cut to 2.6–4 s loops at 960×540, 30 fps. The muscle figure is an original drawing.
+
+Before a public competition submission, the team must verify the event’s current AI/SI attribution rules and add any required form disclosures, credits, metadata or visible labels to the final submitted video or slides. This document is an accurate development disclosure, not a claim that competition compliance has been formally reviewed.
