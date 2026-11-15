@@ -1,6 +1,6 @@
 # ASTRAMED
 
-**Live demo: https://alishahroor.github.io/astramed-prototype/** · Repository: https://github.com/AliShahroor/astramed-prototype
+**Live demo: https://moh-alani.github.io/Astramed/** · Repository: https://github.com/moh-alani/Astramed
 
 **Understand the change. Inspect the evidence. Make the next check.**
 
@@ -90,7 +90,7 @@ The Playwright configuration uses locally installed Google Chrome (`channel: chr
 
 The build is a static `dist/` directory. With a GitHub/Vercel account, publish the source, import the repository into Vercel, use `npm run build` and output directory `dist`, and select an appropriate Node version. A root-domain deployment needs no route rewrite because navigation is in-app. Subdirectory hosting is supported: build with `npm run build -- --base=/your-project/` and serve that same base path. Manifest assets and worker registration follow the base. Never publish real personal medical records or local browser exports.
 
-[Deployment instructions](docs/submission/deployment.md) describe release checks. The approved source is public at [AliShahroor/astramed-prototype](https://github.com/AliShahroor/astramed-prototype), and the application is live on [GitHub Pages](https://alishahroor.github.io/astramed-prototype/). The included workflow verifies lint, tests and build before deployment. See the validation record for observed live-browser results. The separate existing astramed repository/site and local template copy are preserved. No competition submission has been performed. The [30-second storyboard](docs/submission/demo-storyboard.md) and [seven-slide outline](docs/submission/presentation-outline.md) prepare the submission; final competition rules and deadlines must be checked by the team.
+[Deployment instructions](docs/submission/deployment.md) describe release checks. The approved source is public at [moh-alani/Astramed](https://github.com/moh-alani/Astramed), and the application is live on [GitHub Pages](https://moh-alani.github.io/Astramed/). The included workflow verifies lint, tests and build before deployment. See the validation record for observed live-browser results. The separate existing astramed repository/site and local template copy are preserved. No competition submission has been performed. The [30-second storyboard](docs/submission/demo-storyboard.md) and [seven-slide outline](docs/submission/presentation-outline.md) prepare the submission; final competition rules and deadlines must be checked by the team.
 
 ## Team and disclosure
 
