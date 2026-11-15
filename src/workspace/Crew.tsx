@@ -64,9 +64,9 @@ export function Crew() {
   const selected = astronauts.find((a) => a.id === selectedId) ?? astronaut;
   const entries = checkinsFor(state);
   const findingsOf = (id: string) => mission.crewFindings[id].filter((f) => (f.status === "Review" || f.status === "Alert") && f.indicator !== "co2");
-  // You first, then anyone whose shared status needs attention, then everyone else by name.
-  const order = (a: Astronaut) => (a.id === astronaut.id ? 0 : a.share && findingsOf(a.id).length ? 1 : 2);
-  const ordered = [...astronauts].sort((x, y) => order(x) - order(y) || (x.share && y.share ? RANK[findingsOf(y.id)[0]?.status ?? "Nominal"] - RANK[findingsOf(x.id)[0]?.status ?? "Nominal"] : 0) || x.name.localeCompare(y.name));
+  // Cards in astronaut-number order: Astronaut 1, 2, 3.
+  const num = (a: Astronaut) => Number(/\d+/.exec(a.designation)?.[0] ?? 99);
+  const ordered = [...astronauts].sort((x, y) => num(x) - num(y));
 
   return (
     <>
@@ -75,7 +75,7 @@ export function Crew() {
         <div className="crew-main">
           <section aria-labelledby="roster-h">
             <div className="section-head">
-              <h2 id="roster-h" className="h2">Crew</h2>
+              <h2 id="roster-h" className="h2">Astronauts</h2>
               <span className="muted small"><Lock size={12} aria-hidden="true" /> Crewmates see status and check-ins, not measurements</span>
             </div>
             <ul className="roster crew-cards">

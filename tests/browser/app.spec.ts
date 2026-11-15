@@ -137,7 +137,7 @@ test("cross-profile: Ali asks Mohammad to check in, signs out; Mohammad answers"
   await page.getByRole("button", { name: "Enter Mission System" }).click();
   await page.getByRole("button", { name: /Enter as Mohammad Al-Ani/ }).click();
   await page.getByRole("button", { name: "Open Workspace" }).click();
-  await nav(page, "Crew").click();
+  await nav(page, "Astronauts").click();
   await expect(page.locator(".queue")).toContainText("Check-in requested by Ali");
   await page.locator(".queue").getByRole("button", { name: "Check in", exact: true }).click();
   await page.locator(".checkin-form").getByRole("button", { name: "Check in", exact: true }).click();

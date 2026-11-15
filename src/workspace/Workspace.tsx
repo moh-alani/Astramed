@@ -16,7 +16,7 @@ import { Modals } from "./Modals";
 
 const NAV = [
   { page: "health" as const, label: "My Health", title: "Health Overview", icon: HeartPulse },
-  { page: "crew" as const, label: "Crew", title: "Crew Health & Operations", icon: Users },
+  { page: "crew" as const, label: "Astronauts", title: "Crew Health & Operations", icon: Users },
   { page: "countermeasures" as const, label: "Countermeasures", title: "Exercise & Cognitive Assessments", icon: Activity },
 ];
 

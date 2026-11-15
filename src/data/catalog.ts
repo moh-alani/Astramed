@@ -201,7 +201,7 @@ export const astronauts: Astronaut[] = [
     name: "Ali Shahroor",
     role: "Mission specialist",
     initials: "AS",
-    designation: "CREW 03 · MS",
+    designation: "Astronaut 3 · MS",
     history:
       "Stable simulated preflight measures; recent sleep restriction in scenario B.",
     share: true,
@@ -212,7 +212,7 @@ export const astronauts: Astronaut[] = [
     name: "Mohammad Al-Ani",
     role: "Commander",
     initials: "MA",
-    designation: "CREW 01 · CDR",
+    designation: "Astronaut 1 · CDR",
     history:
       "Consistent simulated sleep and cognitive measures; higher preflight resting heart rate.",
     share: true,
@@ -223,7 +223,7 @@ export const astronauts: Astronaut[] = [
     name: "Nada Aboubaker",
     role: "Flight engineer",
     initials: "NA",
-    designation: "CREW 02 · FE",
+    designation: "Astronaut 2 · FE",
     history:
       "Reduced simulated activity during maintenance work; no clinical condition assigned.",
     share: false,
